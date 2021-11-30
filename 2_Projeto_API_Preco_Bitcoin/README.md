@@ -8,7 +8,7 @@ Além disso, os dados filtrados deverão ser agrupados e salvos em formato CSV e
 Por fim, deverá ser salvo um gráfico gerado a partir dos dados filtrados.
 
 Para esse projeto, foi selecionado uma base de dados de preços de bitcoin, com
-início a partir de 1 de Janeiro de 2015. Os dados podem ser adquiridos a partir
+início a partir de 1 de Janeiro de 2015. Os dados foram adquiridos a partir
 de uma API do Yahoo utilizando a biblioteca pandas-datareader e foram 
 manipulados utilizando a biblioteca Pandas. A API foi criada utilizando 
 a biblioteca Flask. O gráfico selecionado foi o de Candlestick, criado
