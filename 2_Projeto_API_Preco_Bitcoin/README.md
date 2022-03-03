@@ -8,7 +8,7 @@ Além disso, os dados filtrados deverão ser agrupados e salvos em formato CSV e
 Por fim, deverá ser salvo um gráfico gerado a partir dos dados filtrados.
 
 Para esse projeto, foi selecionado uma base de dados de preços de bitcoin, com
-início a partir de 1 de Janeiro de 2015. Os dados podem ser adquiridos a partir
+início a partir de 1 de Janeiro de 2015. Os dados foram adquiridos a partir
 de uma API do Yahoo utilizando a biblioteca pandas-datareader e foram 
 manipulados utilizando a biblioteca Pandas. A API foi criada utilizando 
 a biblioteca Flask. O gráfico selecionado foi o de Candlestick, criado
@@ -23,7 +23,7 @@ Para executar a API, rodar o script "api_bitcoin.py".
 colunas: nome das colunas que serão filtradas no dataframe. As colunas disponíveis no
 dataframe original são: High, Low, Open, Close, Adj Close, Volume.
 
-Observação: caso desejado selecionar todas as colunas, poderá ser utilizado o valor 'all'
+Observação: caso desejado selecionar todas as colunas, poderá ser passado o valor 'all'
 
 intervalo de data: intervalo de datas que serão filtadas no dataframe. Dados disponíveis
 de 1 de Janeiro de 2015 até a data de hoje (última validação em 29 de Novembro de 2021).
@@ -32,7 +32,7 @@ Os dados deverão ser passados nos seguintes formatos:
 - para data uníca: aaaa-mm-dd
 - para intervalo de data: aaaa-mm-dd:aaaa-mm-dd
 
-Observação: caso desejado selecionar todas as datas disponíveis, poderá ser utilizado o valor 'all'
+Observação: caso desejado selecionar todas as datas disponíveis, poderá ser passado o valor 'all'
 
 **Exemplos de chamada:**
 
